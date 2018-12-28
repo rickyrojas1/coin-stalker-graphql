@@ -3,6 +3,7 @@ import gql from "graphql-tag";
 import { Query } from "react-apollo";
 import { Link } from "react-router-dom";
 import classNames from "classnames";
+import ReactGA from "react-ga";
 
 const LAUNCH_QUERY = gql`
   query LaunchQuery($flight_number: Int!) {
@@ -22,6 +23,11 @@ const LAUNCH_QUERY = gql`
 `;
 
 class Launch extends Component {
+  componentDidMount() {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    console.log("ReactGA :", ReactGA);
+  }
+
   render() {
     let { flight_number } = this.props.match.params;
     flight_number = parseInt(flight_number);

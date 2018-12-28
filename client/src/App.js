@@ -5,17 +5,34 @@ import { ApolloProvider } from "react-apollo";
 import logo from "./logo.png";
 import Launches from "./components/Launches";
 import Launch from "./components/Launch";
+import ReactGA from "react-ga";
+import createBrowserHistory from "history/createBrowserHistory";
 import "./App.css";
 
 const client = new ApolloClient({
   uri: "http://localhost:5000/graphql"
 });
 
+const history = createBrowserHistory();
+
 class App extends Component {
+  componentDidMount() {
+    this.initializeReactGA();
+  }
+
+  initializeReactGA() {
+    ReactGA.initialize("UA-122479643-1");
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    console.log(
+      "Analytics Set Up",
+      window.location.pathname + window.location.search
+    );
+  }
+
   render() {
     return (
       <ApolloProvider client={client}>
-        <Router>
+        <Router history={history}>
           <div className="container">
             <img
               src={logo}
