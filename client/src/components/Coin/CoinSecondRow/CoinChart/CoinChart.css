@@ -1,0 +1,7 @@
+@media (max-width: 1330px) {
+    .tradingview {
+        grid-row: 1;
+        width: 100%;
+    }
+
+}

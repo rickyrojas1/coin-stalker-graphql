@@ -1,0 +1,13 @@
+:root {
+    --main-bg-color: #213965;
+    --secondary-bg-color: #001529;
+}
+
+@font-face {
+    font-family: CirBlack;
+    src: url("../src/assets/fonts/CircularStd-Black.otf");
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,401 @@
+{
+    "coins": {
+        "BTC": {
+            "symbol": "BTC",
+            "twitter": "bitcoincoreorg",
+            "twitterLink": "https://www.twitter.com/bitcoincoreorg",
+            "tradingviewSymbol": "COINBASE:BTCUSD"
+        },
+        "ETH": {
+            "symbol": "ETH",
+            "twitter": "ethereum",
+            "twitterLink": "https://twitter.com/ethereum",
+            "tradingviewSymbol": "COINBASE:ETHUSD"
+        },
+        "LTC": {
+            "symbol": "LTC",
+            "twitter": "litecoin",
+            "twitterLink": "https://twitter.com/litecoin",
+            "tradingviewSymbol": "BINANCE:LTCBTC"
+        },
+        "EOS": {
+            "symbol": "EOS",
+            "twitter": "block_one_",
+            "twitterLink": "https://twitter.com/block_one_",
+            "tradingviewSymbol": "BINANCE:EOSBTC"
+        },
+        "BCH": {
+            "symbol": "BCHABC",
+            "twitter": "bitcoin",
+            "twitterLink": "https://twitter.com/bitcoin",
+            "tradingviewSymbol": "BINANCE:BCHABCBTC"
+        },
+        "USDT": {
+            "symbol": "USDT",
+            "twitter": "tether_to",
+            "twitterLink": "https://twitter.com/tether_to",
+            "tradingviewSymbol": "BINANCE:BTCUSDT"
+
+        },
+        "TRX": {
+            "symbol": "TRX",
+            "twitter": "Tronfoundation",
+            "twitterLink": "https://twitter.com/Tronfoundation"
+        },
+        "ADA": {
+            "symbol": "ADA",
+            "twitter": "cardanostiftung",
+            "twitterLink": "https://twitter.com/cardanostiftung"
+        },
+        "BSV": {
+            "symbol": "BSV",
+            "twitter": "_bitcoinsv",
+            "twitterLink": "https://twitter.com/_bitcoinsv",
+            "tradingviewSymbol": "BINANCE:BCHSVBTC"
+        },
+        "XMR": {
+            "symbol": "XMR",
+            "twitter": "monero",
+            "twitterLink": "https://twitter.com/monero"
+        },
+        "DASH": {
+            "symbol": "DASH",
+            "twitter": "dashpay",
+            "twitterLink": "https://twitter.com/dashpay",
+            "tradingviewSymbol": "BINANCE:DASHBTC"
+        },
+        "MKR": {
+            "symbol": "MKR",
+            "twitter": "makerdao",
+            "twitterLink": "https://twitter.com/makerdao",
+            "tradingviewSymbol": "BITFINEX:MKRBTC"
+        },
+        "NEO": {
+            "symbol": "NEO",
+            "twitter": "neo_blockchain",
+            "twitterLink": "https://twitter.com/neo_blockchain",
+            "tradingviewSymbol": "BINANCE:NEOBTC"
+        },
+        "ETC": {
+            "symbol": "ETC",
+            "twitter": "eth_classic",
+            "twitterLink": "https://twitter.com/eth_classic",
+            "tradingviewSymbol": "BINANCE:ETCBTC"
+        },
+        "NEM": {
+            "symbol": "NEM",
+            "twitter": "nemofficial",
+            "twitterLink": "https://twitter.com/nemofficial"
+        },
+        "ZEC": {
+            "symbol": "ZEC",
+            "twitter": "zcashco",
+            "twitterLink": "https://twitter.com/zcashco",
+            "tradingviewSymbol": "BINANCE:ZECBTC"
+        },
+        "VET": {
+            "symbol": "VET",
+            "twitter": "vechainofficial",
+            "twitterLink": "https://twitter.com/vechainofficial",
+            "tradingviewSymbol": "BINANCE:VETBTC"
+        },
+        "WAVES": {
+            "symbol": "WAVES",
+            "twitter": "wavesplatform",
+            "twitterLink": "https://twitter.com/wavesplatform",
+            "tradingviewSymbol": "BINANCE:WAVESBTC"
+        },
+        "USDC": {
+            "symbol": "USDC",
+            "twitter": "circlepay",
+            "twitterLink": "https://twitter.com/circlepay",
+            "tradingviewSymbol": "BINANCE:USDCTUSD"
+        },
+        "BAT": {
+            "symbol": "BAT",
+            "twitter": "attentiontoken",
+            "twitterLink": "https://twitter.com/attentiontoken",
+            "tradingviewSymbol": "BINANCE:BATBTC"
+        },
+        "BTG": {
+            "symbol": "BTG",
+            "twitter": "bitcoingold",
+            "twitterLink": "https://twitter.com/bitcoingold",
+            "tradingviewSymbol": "BINANCE:BTGBTC"
+        },
+        "OMG": {
+            "symbol": "OMG",
+            "twitter": "omise_go",
+            "twitterLink": "https://twitter.com/omise_go",
+            "tradingviewSymbol": "BINANCE:OMGBTC"
+        },
+        "DCR": {
+            "symbol": "DCR",
+            "twitter": "decredproject",
+            "twitterLink": "https://twitter.com/decredproject",
+            "tradingviewSymbol": "BINANCE:DCRBTC"
+        },
+        "LSK": {
+            "symbol": "LSK",
+            "twitter": "LiskHQ",
+            "twitterLink": "https://twitter.com/LiskHQ",
+            "tradingviewSymbol": "BINANCE:LSKBTC"
+        },
+        "LINK": {
+            "symbol": "LINK",
+            "twitter": "chainlink",
+            "twitterLink": "https://twitter.com/chainlink",
+            "tradingviewSymbol": "BINANCE:LINKBTC"
+        },
+        "ICX": {
+            "symbol": "ICX",
+            "twitter": "helloiconworld",
+            "twitterLink": "https://twitter.com/helloiconworld",
+            "tradingviewSymbol": "BINANCE:ICXBTC"
+        },
+        "ZIL": {
+            "symbol": "ZIL",
+            "twitter": "zilliqa",
+            "twitterLink": "https://twitter.com/zilliqa",
+            "tradingviewSymbol": "BINANCE:ZILBTC"
+        },
+        "DGB": {
+            "symbol": "DGB",
+            "twitter": "digibytecoin",
+            "twitterLink": "https://twitter.com/digibytecoin"
+        },
+        "HOT": {
+            "symbol": "HOT",
+            "twitter": "protocol_hydro",
+            "twitterLink": "https://twitter.com/protocol_hydro",
+            "tradingviewSymbol": "BITFINEX:HOTBTC"
+        },
+        "BCN": {
+            "symbol": "BCN",
+            "twitter": "bytecoin_bcn",
+            "twitterLink": "https://twitter.com/bytecoin_bcn",
+            "tradingviewSymbol": "POLONIEX:BCNBTC"
+        },
+        "BTT": {
+            "symbol": "BTT",
+            "twitter": "BitTorrent",
+            "twitterLink": "https://twitter.com/BitTorrent",
+            "tradingviewSymbol": "BINANCE:BTTBTC"
+        },
+        "BTS": {
+            "symbol": "BTS",
+            "twitter": "_bitshares",
+            "twitterLink": "https://twitter.com/_bitshares",
+            "tradingviewSymbol": "BINANCE:BTSBTC"
+        },
+        "BCD": {
+            "symbol": "BCD",
+            "twitter": "BitcoinDiamond_",
+            "twitterLink": "https://twitter.com/BitcoinDiamond_",
+            "tradingviewSymbol": "BINANCE:BCDBTC"
+        },
+        "ABBC": {
+            "symbol": "ABBC",
+            "twitter": "abbcfoundation",
+            "twitterLink": "https://twitter.com/abbcfoundation",
+            "tradingviewSymbol": "BINANCE:ABBCBTC"
+        },
+        "THETA": {
+            "symbol": "THETA",
+            "twitter": "theta_network",
+            "twitterLink": "https://twitter.com/theta_network",
+            "tradingviewSymbol": "BINANCE:THETABTC"
+        },
+        "HT": {
+            "symbol": "HT",
+            "twitter": "huobiglobal",
+            "twitterLink": "https://twitter.com/huobiglobal",
+            "tradingviewSymbol": "HUOBI:HTBTC"
+        },
+        "PAX": {
+            "symbol": "PAX",
+            "twitter": "PaxosGlobal",
+            "twitterLink": "https://twitter.com/PaxosGlobal",
+            "tradingviewSymbol": "BITTREX:PAXBTC"
+        },
+        "KMD": {
+            "symbol": "KMD",
+            "twitter": "komodoplatform",
+            "twitterLink": "https://twitter.com/komodoplatform",
+            "tradingviewSymbol": "BINANCE:KMDBTC"
+        },
+        "AE": {
+            "symbol": "AE",
+            "twitter": "aeternity",
+            "twitterLink": "https://twitter.com/aeternity",
+            "tradingviewSymbol": "BINANCE:AEBTC"
+        },
+        "NPXS": {
+            "symbol": "NPXS",
+            "twitter": "PundiXLabs",
+            "twitterLink": "https://twitter.com/PundiXLabs",
+            "tradingviewSymbol": "BINANCE:NPXSBTC"
+        },
+        "SC": {
+            "symbol": "SC",
+            "twitter": "SiaTechHQ",
+            "twitterLink": "https://twitter.com/SiaTechHQ",
+            "tradingviewSymbol": "BINANCE:SCBTC"
+        },
+        "RVN": {
+            "symbol": "RVN",
+            "twitter": "ravencoin",
+            "twitterLink": "https://twitter.com/ravencoin",
+            "tradingviewSymbol": "BINANCE:RVNBTC"
+
+        },
+        "BTM": {
+            "symbol": "BTM",
+            "twitter": "ProjectBitmark",
+            "twitterLink": "https://twitter.com/ProjectBitmark"
+        },
+        "DAI": {
+            "symbol": "DAI",
+            "twitter": "MakerDAO",
+            "twitterLink": "https://twitter.com/MakerDAO"
+        },
+        "AOA": {
+            "symbol": "AOA",
+            "twitter": "AurorachainEN",
+            "twitterLink": "https://twitter.com/AurorachainEN"
+        },
+        "KCS": {
+            "symbol": "KCS",
+            "twitter": "kucoincom",
+            "twitterLink": "https://twitter.com/kucoincom"
+        },
+        "SNT": {
+            "symbol": "SNT",
+            "twitter": "ethstatus",
+            "twitterLink": "https://twitter.com/ethstatus"
+        },
+        "PAI": {
+            "symbol": "PAI",
+            "twitter": "pchain_org",
+            "twitterLink": "https://twitter.com/pchain_org",
+            "tradingviewSymbol": "BITFINEX:PAIBTC"
+
+        },
+        "PPT": {
+            "symbol": "PPT",
+            "twitter": "bitpopulous",
+            "twitterLink": "https://twitter.com/bitpopulous"
+        },
+        "GNT": {
+            "symbol": "GNT",
+            "twitter": "golemproject",
+            "twitterLink": "https://twitter.com/golemproject"
+        },
+        "R": {
+            "symbol": "R",
+            "twitter": "Revain_org",
+            "twitterLink": "https://twitter.com/Revain_org"
+        },
+        "ARK": {
+            "symbol": "ARK",
+            "twitter": "ArkEcosystem",
+            "twitterLink": "https://twitter.com/ArkEcosystem"
+        },
+        "GUSD": {
+            "symbol": "GUSD",
+            "twitter": "gemini",
+            "twitterLink": "https://twitter.com/gemini"
+        },
+        "XIN": {
+            "symbol": "XIN",
+            "twitter": "xin_foundation",
+            "twitterLink": "https://twitter.com/xin_foundation"
+        },
+        "WAX": {
+            "symbol": "WAX",
+            "twitter": "wax_io",
+            "twitterLink": "https://twitter.com/wax_io"
+        },
+        "ETN": {
+            "symbol": "ETN",
+            "twitter": "electroneum",
+            "twitterLink": "https://twitter.com/electroneum",
+            "tradingviewSymbol": "HUOBI:ETNBTC"
+        },
+        "MAID": {
+            "symbol": "MAID",
+            "twitter": "maidsafe",
+            "twitterLink": "https://twitter.com/maidsafe",
+            "tradingviewSymbol": "POLONIEX:MAIDBTC"
+        },
+        "HC": {
+            "symbol": "HC",
+            "twitter": "HcashOfficial",
+            "twitterLink": "https://twitter.com/HcashOfficial"
+
+        },
+        "DGTX": {
+            "symbol": "DGTX",
+            "twitter": "DigitexFutures",
+            "twitterLink": "https://twitter.com/DigitexFutures"
+
+        },
+        "LRC": {
+            "symbol": "LRC",
+            "twitter": "loopringorg",
+            "twitterLink": "https://twitter.com/loopringorg"
+
+        },
+        "MCO": {
+            "symbol": "MCO",
+            "twitter": "cryptocom",
+            "twitterLink": "https://twitter.com/cryptocom"
+
+        },
+        "QASH": {
+            "symbol": "QASH",
+            "twitter": "Liquid_Global",
+            "twitterLink": "https://twitter.com/Liquid_Global",
+            "tradingviewSymbol": "HUOBI:QASHBTC"
+
+        },
+        "NEXO": {
+            "symbol": "NEXO",
+            "twitter": "NexoFinance",
+            "twitterLink": "https://twitter.com/NexoFinance",
+            "tradingviewSymbol": "HUOBI:NEXOBTC"
+
+        },
+        "ELF": {
+            "symbol": "ELF",
+            "twitter": "aelfblockchain",
+            "twitterLink": "https://twitter.com/aelfblockchain"
+
+        },
+        "PIVX": {
+            "symbol": "PIVX",
+            "twitter": "_pivx",
+            "twitterLink": "https://twitter.com/_pivx"
+
+        },
+        "XZC": {
+            "symbol": "XZC",
+            "twitter": "zcoinofficial",
+            "twitterLink": "https://twitter.com/zcoinofficial"
+
+        },
+        "ELA": {
+            "symbol": "ELA",
+            "twitter": "Elastos_org",
+            "twitterLink": "https://twitter.com/Elastos_org",
+            "tradingviewSymbol": "HUOBI:ELABTC"
+
+        },
+        "POWR": {
+            "symbol": "POWR",
+            "twitter": "PowerLedger_io",
+            "twitterLink": "https://twitter.com/PowerLedger_io"
+
+        }
+    }
+}

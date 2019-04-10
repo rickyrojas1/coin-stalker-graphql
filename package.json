@@ -1,5 +1,5 @@
 {
-  "name": "spacex-launch-stats",
+  "name": "coin-stalker",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,12 +12,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^3.9.2",
     "axios": "^0.18.0",
     "concurrently": "^4.1.0",
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "express-graphql": "^0.7.1",
-    "graphql": "^14.0.2"
+    "graphql": "^14.0.2",
+    "material-ui": "^0.20.2",
+    "numeral": "^2.0.6",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-resize-detector": "^4.0.2",
+    "react-tradingview-widget": "^1.3.0",
+    "react-twitter-embed": "^2.0.4",
+    "react-twitter-widgets": "^1.7.1",
+    "scientific-to-decimal": "^1.1.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"

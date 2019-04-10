@@ -1,0 +1,160 @@
+@import '../../../variable.css';
+
+.coin-card-container {
+    box-shadow: 0 2px 2px -2px #373a43;
+    width: 100%;
+    height: 140px;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    /* background-color: var(--main-bg-color); */
+}
+
+.coincard {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: inherit;
+
+}
+
+.coinName {
+    margin-top: 12px;
+    font-family: CirBlack;
+
+}
+
+.coinName>h2 {
+    font-family: CirBlack;
+    font-size: 34px;
+    margin-bottom: -2px;
+}
+
+.img-responsive {
+    height: 130px;
+    width: 190px;
+    border-radius: 25%;
+    flex-shrink: 0;
+    margin-top: 3px;
+
+}
+
+.logo-container {
+
+    width: 120px;
+    height: 100%;
+    margin-right: 20px;
+
+}
+
+.logo-container>img {
+    width: 100px;
+    height: 70%;
+    margin-top: 20px;
+}
+
+.left-container {
+    display: grid;
+    justify-items: flex-start;
+    grid-column-gap: 0px;
+    grid-template-columns: 1fr;
+    width: 100%;
+    /* border: 1px solid red; */
+
+}
+
+.left-flex {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    /* border: 1px solid blue; */
+    padding-left: 20px;
+}
+
+
+.middleLine {
+    display: flex;
+    width: 100%;
+}
+
+
+.panel {
+    display: grid;
+    grid-column-gap: -10px;
+    grid-template-columns: minmax(150px, 1fr)minmax(150px, 1fr) minmax(150px, 1fr) minmax(150px, 1fr);
+    /* border: 1px solid salmon; */
+}
+
+.panel>div {
+    justify-self: flex-start;
+    margin-left: 20px;
+    align-self: center;
+    /* border: 1px solid green; */
+}
+
+.rank {
+    padding-left: 50px;
+
+}
+
+.percent {
+    justify-self: flex-end;
+    align-self: center;
+}
+
+.panel>div>h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.panel>div>h4 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.panel>div>p {
+    margin: auto;
+    text-align: center;
+    border-radius: 99px 99px 99px 99px;
+    width: 5px;
+    height: 2px;
+    background: grey;
+}
+
+@media (max-width: 1003px) {
+    .coincard {
+        grid-template-columns: 1fr;
+        padding-bottom: 20px;
+        border: 1px solid salmon;
+    }
+
+    .coin-card-container {
+        height: 270px;
+    }
+
+    .left-flex {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        /* border: 1px solid blue; */
+
+    }
+
+    .panel {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .panel>div>h3 {
+        font-size: 12px;
+    }
+
+    .panel>div>h4 {
+        font-size: 8px;
+    }
+
+    .rank {
+        padding-left: 0px;
+
+    }
+}

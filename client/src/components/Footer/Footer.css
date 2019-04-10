@@ -1,0 +1,78 @@
+.copyright {
+    text-align: center;
+    color: white;
+}
+
+.data-pulled {
+    display: flex;
+
+}
+
+.crypto-compare {
+    display: block;
+    flex-direction: row;
+    width: 70px;
+    margin-right: 15px;
+}
+
+.coinmarketcap {
+    display: block;
+    margin-left: 15px;
+
+}
+
+.crypto-compare-logo {
+    height: 50px;
+    width: 70px;
+}
+
+.coinmarketcap-logo {
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.data-pulled>h4 {
+    color: white;
+}
+
+.donations>h4 {
+    color: white;
+}
+
+.donations>h6 {
+    color: white;
+}
+
+
+
+
+.footer {
+    height: 200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 2fr;
+    justify-items: center;
+    align-items: center;
+    background: #373a43;
+
+
+
+}
+
+.footer-logo {
+    height: 150px;
+    width: 260px;
+    margin-top: -35px;
+    justify-self: center;
+
+}
+
+@media (max-width: 1003px) {
+    .footer {
+        grid-template-columns: 1fr;
+        height: 500px;
+    }
+}

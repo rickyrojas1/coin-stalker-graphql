@@ -1,0 +1,44 @@
+@import '../../../variable.css';
+
+.searchStats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    background-color: var(--secondary-bg-color);
+    justify-content: center;
+    height: 50px;
+}
+
+.searchStats>h5 {
+    color: white;
+    border-right: 2px solid lightgray;
+    margin-right: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+
+.searchBox {
+    width: 90%;
+    margin: auto;
+}
+
+.searchBox>input {
+    height: 23px;
+    width: 100%;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    align-self: center;
+    justify-self: flex-end;
+    font-size: 12px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    -moz-box-shadow: inset 0 0 1px #000000;
+    -webkit-box-shadow: inset 0 0 1px #000000;
+    box-shadow: inset 0 0 1px #000000;
+}
+
+.searchBox>input:focus {
+    outline-width: 0;
+}

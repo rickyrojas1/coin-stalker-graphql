@@ -1,0 +1,28 @@
+@import '../../../variable.css';
+
+.secondrow {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #bfe1ef;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 1330px) {
+    .secondrow {
+        grid-template-columns: 1fr;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background: #bfe1ef;
+    }
+
+    .tradingview {
+        grid-row: 1;
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,48 @@
+.suggestion-item-container {
+    width: 100%;
+
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.link h4:hover {
+    text-decoration: none !important;
+}
+
+.coin-suggest {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border-top: 0.1px solid lightslategray;
+    padding-top: 5px;
+    color: black;
+
+}
+
+.coin-suggest>h4 {
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.coin-suggest:hover {
+    background-color: #373a43;
+    cursor: pointer;
+    color: white;
+}
+
+.img-container {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-small {
+    width: 20px;
+    height: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
+}

@@ -1,0 +1,70 @@
+@import '../../../../variable.css';
+
+
+
+.secondrowstats {
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 10% 20%;
+    width: 100%;
+    align-content: center;
+    height: 600px;
+}
+
+
+.title {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin: auto;
+}
+
+.title>p {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.title>a {
+    text-align: center;
+    font-size: 22px;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.title>h1 {
+    text-align: center;
+    font-family: CirBlack;
+    font-size: 40px;
+    color: #373a43;
+}
+
+.percents>h5 {
+    color: #373a43;
+}
+
+.percents {
+    font-family: CirBlack;
+    text-align: center;
+}
+
+.movements {
+    margin: auto;
+    font-family: CirBlack;
+    text-align: center;
+}
+
+.movements>h5,
+h2 {
+    color: #373a43;
+}
+
+.percents>h3 {
+    font-size: 20px;
+}
+
+.movements>h3 {
+    font-size: 20px;
+}
