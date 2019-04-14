@@ -352,6 +352,12 @@
             "twitterLink": "https://twitter.com/cryptocom"
 
         },
+        "CRO": {
+            "symbol": "CRO",
+            "twitter": "cryptocom",
+            "twitterLink": "https://twitter.com/cryptocom"
+
+        },
         "QASH": {
             "symbol": "QASH",
             "twitter": "Liquid_Global",
@@ -395,6 +401,24 @@
             "symbol": "POWR",
             "twitter": "PowerLedger_io",
             "twitterLink": "https://twitter.com/PowerLedger_io"
+
+        },
+        "NULS": {
+            "symbol": "NULS",
+            "twitter": "nuls",
+            "twitterLink": "https://twitter.com/nuls"
+
+        },
+        "NAS": {
+            "symbol": "NAS",
+            "twitter": "nebulasio",
+            "twitterLink": "https://twitter.com/nebulasio"
+
+        },
+        "NAS": {
+            "symbol": "NAS",
+            "twitter": "nebulasio",
+            "twitterLink": "https://twitter.com/nebulasio"
 
         }
     }

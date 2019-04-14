@@ -45,7 +45,7 @@ const SocialInfo = props => {
                 <img
                   src={require("../../../../assets/img/fb.png")}
                   alt="icon"
-                  className="icon"
+                  className={Facebook.link ? "icon" : "hidden"}
                 />
               </a>
             }
@@ -53,7 +53,7 @@ const SocialInfo = props => {
               <img
                 src={require("../../../../assets/img/reddit.png")}
                 alt="icon"
-                className="icon"
+                className={Reddit.link ? "icon" : "hidden"}
               />
             </a>
             {
@@ -65,7 +65,7 @@ const SocialInfo = props => {
                 <img
                   src={require("../../../../assets/img/twitter.png")}
                   alt="icon"
-                  className="icon"
+                  className={Twitter.link ? "icon" : "hidden"}
                 />
               </a>
             }
@@ -73,18 +73,22 @@ const SocialInfo = props => {
         </div>
       </div>
       <div className="twitterbox">
-        <Timeline
-          className="twit"
-          dataSource={{
-            sourceType: "profile",
-            screenName: twitter ? twitter : Twitter.name
-          }}
-          options={{
-            username: twitter ? twitter : Twitter.name,
-            height: 550
-          }}
-          onLoad={() => console.log("Timeline is loaded!")}
-        />
+        {Twitter.name !== "" ? (
+          <Timeline
+            className="twit"
+            dataSource={{
+              sourceType: "profile",
+              screenName: twitter ? twitter : Twitter.name
+            }}
+            options={{
+              username: twitter ? twitter : Twitter.name,
+              height: 550
+            }}
+            onLoad={() => console.log("Timeline is loaded!")}
+          />
+        ) : (
+          <div className="no-timeline-container">Sorry No Timeline Found.</div>
+        )}
       </div>
     </div>
   );
