@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "a4d0fce52471772404688695f208b59c",
-    "url": "/static/media/CircularStd-Black.a4d0fce5.otf"
+    "revision": "c6424c4d56dd8bb17f58",
+    "url": "/static/css/main.692a8965.chunk.css"
   },
   {
-    "revision": "b6933ede57003abab8b3",
-    "url": "/static/css/main.d79ec24a.chunk.css"
+    "revision": "c6424c4d56dd8bb17f58",
+    "url": "/static/js/main.c6424c4d.chunk.js"
   },
   {
-    "revision": "861f9c03cfec20f0d192f8317d5315e7",
-    "url": "/static/media/reddit.861f9c03.png"
+    "revision": "19598203b2f9e2cc2bdf",
+    "url": "/static/css/1.9723eb0f.chunk.css"
   },
   {
-    "revision": "9bb2b80199539a9035e7",
-    "url": "/static/js/1.9bb2b801.chunk.js"
+    "revision": "19598203b2f9e2cc2bdf",
+    "url": "/static/js/1.19598203.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/static/media/cs2.cc86e3ce.png"
   },
   {
-    "revision": "b6933ede57003abab8b3",
-    "url": "/static/js/main.b6933ede.chunk.js"
+    "revision": "a4d0fce52471772404688695f208b59c",
+    "url": "/static/media/CircularStd-Black.a4d0fce5.otf"
   },
   {
     "revision": "9759ea8da2cf6806fd288e41ddcc50d8",
@@ -44,11 +44,11 @@ self.__precacheManifest = [
     "url": "/static/media/fb.6163476d.png"
   },
   {
-    "revision": "9bb2b80199539a9035e7",
-    "url": "/static/css/1.9723eb0f.chunk.css"
+    "revision": "861f9c03cfec20f0d192f8317d5315e7",
+    "url": "/static/media/reddit.861f9c03.png"
   },
   {
-    "revision": "a9abf094a5f2d026970ee8d365325706",
+    "revision": "138daddfebd3e91d5298dbe8b1290495",
     "url": "/index.html"
   }
 ];
