@@ -5,9 +5,56 @@ const {
   GraphQLFloat,
   GraphQLBoolean,
   GraphQLList,
-  GraphQLSchema
+  GraphQLSchema,
+  GraphQLUnionType,
+  GraphQLScalarType
 } = require("graphql");
 const axios = require("axios");
+
+const myCustomScalarType = new GraphQLScalarType({
+  name: "MyCustomScalar",
+  description: "Description of my custom scalar type",
+  serialize(value) {
+    let result;
+    console.log("value 1:", value);
+    if (value === "") {
+      result = 0;
+    } else {
+      result = value;
+    }
+    // Implement your own behavior here by setting the 'result' variable
+    return result;
+  },
+  parseValue(value) {
+    let result;
+    if (value === "") {
+      result = 0;
+    } else {
+      result = value;
+    }
+
+    // Implement your own behavior here by setting the 'result' variable
+    return result;
+  },
+  parseLiteral(ast) {
+    console.log("ast :", ast);
+    switch (
+      ast.kind
+
+      // Implement your own behavior here by returning what suits your needs
+      // depending on ast.kind
+    ) {
+    }
+  }
+});
+
+var ValueType = new GraphQLUnionType({
+  name: "Value",
+  types: [GraphQLString, GraphQLFloat],
+  resolveType(value) {
+    console.log("calue :", value);
+  }
+});
 
 // coinMarketCap Type
 const coinMarketCapType = new GraphQLObjectType({
@@ -311,8 +358,8 @@ const CoinSnapFullType = new GraphQLObjectType({
   name: "coinSnapFull",
   fields: () => ({
     Algorithm: { type: GraphQLString },
-    BlockNumber: { type: GraphQLInt },
-    BlockReward: { type: GraphQLFloat },
+    BlockNumber: { type: myCustomScalarType },
+    BlockReward: { type: myCustomScalarType },
     BlockTime: { type: GraphQLInt },
     Description: { type: GraphQLString },
     DifficultyAdjustment: { type: GraphQLString },
@@ -327,7 +374,7 @@ const CoinSnapFullType = new GraphQLObjectType({
     Symbol: { type: GraphQLString },
     Technology: { type: GraphQLString },
     TotalCoinSupply: { type: GraphQLString },
-    TotalCoinsMined: { type: GraphQLFloat },
+    TotalCoinsMined: { type: myCustomScalarType },
     Twitter: { type: GraphQLString },
     Website: { type: GraphQLString },
     WebsiteUrl: { type: GraphQLString }
@@ -423,6 +470,9 @@ const RootQuery = new GraphQLObjectType({
       type: CoinSnapFullType,
       args: { id: { type: GraphQLInt } },
       resolve(parent, args) {
+        if (!args.id) {
+          return "no valid Id";
+        }
         return axios
           .get(
             `https://www.cryptocompare.com/api/data/coinsnapshotfullbyid/?id=${
