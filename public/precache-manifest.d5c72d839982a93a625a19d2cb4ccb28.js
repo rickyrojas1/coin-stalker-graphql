@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4571e1276bef031c2435",
-    "url": "/static/css/main.b707a14c.chunk.css"
+    "revision": "8343b9eee837aec8f212",
+    "url": "/static/css/main.60d1b8d1.chunk.css"
   },
   {
-    "revision": "4571e1276bef031c2435",
-    "url": "/static/js/main.4571e127.chunk.js"
+    "revision": "8343b9eee837aec8f212",
+    "url": "/static/js/main.8343b9ee.chunk.js"
   },
   {
     "revision": "19598203b2f9e2cc2bdf",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/static/media/reddit.861f9c03.png"
   },
   {
-    "revision": "d94b26f8b9501b800cb3380fd78cb068",
+    "revision": "5673be3a1459eac2436018d0d175fcc7",
     "url": "/index.html"
   }
 ];

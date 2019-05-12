@@ -42,3 +42,21 @@
 .searchBox>input:focus {
     outline-width: 0;
 }
+
+@media (max-width: 400px) {
+
+    .searchStats {
+
+        grid-template-columns: 1fr 1fr;
+        height: 100px;
+
+    }
+
+    .searchStats>h5:nth-child(even) {
+        border: none;
+    }
+
+    .searchBox {
+        display: none;
+    }
+}

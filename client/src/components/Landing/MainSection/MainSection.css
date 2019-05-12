@@ -65,10 +65,31 @@
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 400px) {
 
     .search-container {
-        height: 800px;
+        height: 400px;
     }
 
+    .main-search {
+        margin-top: 40px;
+        width: 300px;
+        left: 10%;
+    }
+
+    .search-icon {
+        top: 57.5%;
+        right: 12.5%;
+    }
+
+    .auto-complete {
+        top: 70%;
+        left: 10%;
+        width: 80%;
+    }
+
+    .main-section-logo {
+        width: 380px;
+
+    }
 }
