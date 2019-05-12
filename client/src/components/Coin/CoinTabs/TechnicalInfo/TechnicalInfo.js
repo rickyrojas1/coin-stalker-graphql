@@ -4,7 +4,6 @@ import { getBio } from "../../../../functions";
 
 class TechnicalInfo extends Component {
   render() {
-    console.log("isProps :", this.props);
     if (this.props.props) {
       var {
         Algorithm,
@@ -23,7 +22,7 @@ class TechnicalInfo extends Component {
     }
     let imgPath = "https://www.cryptocompare.com" + ImageUrl;
     let bio = getBio(Description);
-
+    console.log("BlockNumber :", BlockNumber);
     return (
       <div className="card-container">
         <div className="card">
@@ -117,8 +116,6 @@ class TechnicalInfo extends Component {
 export default TechnicalInfo;
 
 // const TechnicalInfo = props => {
-//   console.log("props :", props);
-
 //   render() {
 //     if (!props.coinsSnapFull) {
 

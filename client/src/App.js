@@ -26,10 +26,6 @@ class App extends Component {
   initializeReactGA() {
     ReactGA.initialize("UA-122479643-1");
     ReactGA.pageview(window.location.pathname + window.location.search);
-    console.log(
-      "Analytics Set Up",
-      window.location.pathname + window.location.search
-    );
   }
 
   render() {

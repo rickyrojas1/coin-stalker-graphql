@@ -4,7 +4,6 @@ import "./DailyMovement.css";
 const FontAwesome = require("react-fontawesome");
 
 const DailyMovement = props => {
-  console.log("props :", props);
   let { percent_change_1h, percent_change_24h, percent_change_7d } = props.coin;
   let { OPENDAY, HIGHDAY, LOWDAY } = props.aggregatedData;
   return (

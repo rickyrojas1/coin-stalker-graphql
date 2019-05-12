@@ -90,7 +90,6 @@ class Coin extends Component {
   }
 
   componentDidMount() {
-    console.log("this.props :", this.props);
     let symbol = this.props.match.params.coinSymbol;
 
     this.setState({ symbol: symbol, overrideData: getOverrideData(symbol) });
@@ -118,15 +117,10 @@ class Coin extends Component {
                 return "";
               });
               return (
-                <div
-                  onClick={() => {
-                    console.log("this :", this);
-                  }}
-                >
+                <div onClick={() => {}}>
                   <ReactResizeDetector handleWidth handleHeight>
                     {(width, height) => (
                       <div>
-                        {console.log("width :", width, height)}{" "}
                         <CoinHeader
                           symbol={symbol}
                           coinInfo={data.coinSnap.CoinInfo}

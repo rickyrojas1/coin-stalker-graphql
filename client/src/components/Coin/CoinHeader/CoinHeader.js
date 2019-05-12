@@ -4,7 +4,6 @@ const FontAwesome = require("react-fontawesome");
 const numeral = require("numeral");
 
 const CoinHeader = props => {
-  console.log("props :", props);
   let { symbol, name } = props.coin;
   let { ImageUrl } = props.coinInfo;
 

@@ -4,7 +4,6 @@ import "./GlobalStats.css";
 
 class GlobalStats extends Component {
   render(props) {
-    console.log("this.props :", this.props);
     const {
       active_assets,
       active_currencies,

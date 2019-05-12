@@ -11,10 +11,6 @@ const SocialInfo = props => {
     "https://www.cryptocompare.com" + props.props.coinSnapFull.ImageUrl;
   let websiteUrl = props.props.coinSnapFull.WebsiteUrl;
 
-  console.log("this :", SocialInfo);
-  console.log("imgPath :", imgPath);
-  console.log("this.props SOCIAL TAB :", props);
-  console.log("Twitter :", Twitter);
   return (
     <div className="social-container">
       <div className="social-grid">

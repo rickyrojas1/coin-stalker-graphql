@@ -139,8 +139,6 @@ class CoinExchanges extends Component {
       ];
 
       let { width } = this.props.window;
-      console.log("width :", width);
-      console.log("props :", this.props);
       return (
         <div className="exchangeTable" style={{ width: width }}>
           <ReactTable

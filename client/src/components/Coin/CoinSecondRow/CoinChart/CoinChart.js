@@ -33,9 +33,6 @@ const CoinChart = props => {
   let propperExchange = findExchange(tradingViewExchanges, props.exchanges);
   let widgetId = propperExchange + ":" + props.symbol + "BTC";
 
-  console.log("widgetId :", widgetId);
-  console.log("overrideDate :", tradingviewSymbol);
-
   return (
     <div>
       <div className="tradingview">

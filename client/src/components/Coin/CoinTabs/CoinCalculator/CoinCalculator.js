@@ -19,7 +19,6 @@ class CoinCalculator extends Component {
   }
 
   render() {
-    console.log("props :", this.props);
     let { ImageUrl, Name } = this.props.props.coinSnapFull;
     let imageUrl = "https://www.cryptocompare.com" + ImageUrl;
     return (

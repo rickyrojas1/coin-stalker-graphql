@@ -5,9 +5,7 @@ import "./SuggestionPanel.css";
 
 class SuggestionPanel extends Component {
   handleKeyPress(event) {
-    console.log("event :", event);
     if (event.key === "Enter") {
-      console.log("enter press here! ");
     }
   }
 
@@ -17,12 +15,10 @@ class SuggestionPanel extends Component {
     if (filtered) {
       let filteredList = filtered;
       if (filterRule) {
-        console.log("RULE HERE");
         filteredList = filterList(filtered, filterRule);
       }
 
       let arr = filteredList.slice(0, 15);
-      console.log("this :", this);
       return (
         <div className="panel-container">
           <ul

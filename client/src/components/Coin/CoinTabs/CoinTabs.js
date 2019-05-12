@@ -56,8 +56,6 @@ const SOCIALDATA_QUERY = gql`
 
 class CoinTabs extends Component {
   render() {
-    console.log("props FROM THE COIN TABZZZ :", this.props);
-
     return (
       <div>
         <Query
@@ -67,8 +65,6 @@ class CoinTabs extends Component {
           {({ loading, error, data }) => {
             if (loading) return <div>Loading Data...</div>;
             if (error) console.error("ERR: ", error);
-            console.log("TABS data From Graphql :", data);
-            console.log("Tabs Props :", this.props);
 
             return (
               <Fragment>

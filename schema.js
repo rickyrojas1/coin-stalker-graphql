@@ -16,7 +16,6 @@ const myCustomScalarType = new GraphQLScalarType({
   description: "Description of my custom scalar type",
   serialize(value) {
     let result;
-    console.log("value 1:", value);
     if (value === "") {
       result = 0;
     } else {
@@ -37,7 +36,6 @@ const myCustomScalarType = new GraphQLScalarType({
     return result;
   },
   parseLiteral(ast) {
-    console.log("ast :", ast);
     switch (
       ast.kind
 
@@ -51,9 +49,7 @@ const myCustomScalarType = new GraphQLScalarType({
 var ValueType = new GraphQLUnionType({
   name: "Value",
   types: [GraphQLString, GraphQLFloat],
-  resolveType(value) {
-    console.log("calue :", value);
-  }
+  resolveType(value) {}
 });
 
 // coinMarketCap Type
