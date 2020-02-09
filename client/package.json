@@ -26,6 +26,7 @@
     "react-scripts": "2.1.2",
     "react-table": "^6.8.6",
     "react-tabs": "^2.3.0",
+    "react-twitter-widgets": "^1.7.1",
     "scientific-to-decimal": "^1.1.1"
   },
   "scripts": {
